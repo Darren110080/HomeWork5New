@@ -1,0 +1,68 @@
+/* myStyle.css */
+
+/* 通用樣式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 標題樣式 */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+/* 鏈接樣式 */
+a {
+    text-decoration: none;
+    color: #2196F3;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0b7dda;
+}
+
+/* 表格樣式 */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* 按鈕樣式 */
+input[type="reset"],
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* 對齊樣式 */
+div {
+    text-align: center;
+}
+
+/* 回首頁的鏈接樣式 */
+div a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+}
